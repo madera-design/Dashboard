@@ -1,0 +1,40 @@
+{
+    "campañas": [
+      {
+        "nombre": "Campaña 1",
+        "impresiones": 1000,
+        "clics": 150,
+        "conversiones": 20,
+        "costo": 200
+      },
+      {
+        "nombre": "Campaña 2",
+        "impresiones": 2000,
+        "clics": 300,
+        "conversiones": 50,
+        "costo": 350
+      }
+    ],
+    "anuncios": [
+      {
+        "nombre": "Anuncio 1",
+        "alcance": 5000,
+        "participación": 300,
+        "gastoPublicidad": 100,
+        "conversiones": 30
+      },
+      {
+        "nombre": "Anuncio 2",
+        "alcance": 7500,
+        "participación": 500,
+        "gastoPublicidad": 150,
+        "conversiones": 45
+      }
+    ],
+    "leads": [
+      { "nombre": "Lead 1", "costoAdquisición": 200, "valorDeVida": 1000 },
+      { "nombre": "Lead 2", "costoAdquisición": 150, "valorDeVida": 750 }
+    ],
+    "tasaConversión": 0.08
+  }
+  
