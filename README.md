@@ -44,11 +44,11 @@ Este proyecto es un dashboard interactivo para el análisis de datos de campaña
 - **Explorar Gráficos:** Los gráficos se actualizan en función de los datos filtrados. Puedes hacer clic en puntos de datos para explorar detalles adicionales.
 
 ## Estructura del Proyecto
-src/components/: Componentes React utilizados en el proyecto.
-Dashboard.js: Componente principal que maneja la carga de datos, filtros y renderiza los gráficos.
-Chart.js: Componente para renderizar gráficos usando Chart.js.
-Filter.js: Componente para aplicar filtros a los datos.
-public/data/: Directorio que contiene los archivos JSON con los datos de prueba.
-src/tests/: Pruebas unitarias para los componentes React.
-package.json: Archivo de configuración del proyecto y dependencias.
+- src/components/: Componentes React utilizados en el proyecto.
+   - Dashboard.js: Componente principal que maneja la carga de datos, filtros y renderiza los gráficos.
+   - Chart.js: Componente para renderizar gráficos usando Chart.js.
+   - Filter.js: Componente para aplicar filtros a los datos.
+- public/data/: Directorio que contiene los archivos JSON con los datos de prueba.
+- src/tests/: Pruebas unitarias para los componentes React.
+- package.json: Archivo de configuración del proyecto y dependencias.
 
