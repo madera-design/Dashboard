@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Dashboard de Análisis de Campañas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es un dashboard interactivo para el análisis de datos de campañas. Utiliza React para la interfaz de usuario, Chart.js para las visualizaciones de datos y proporciona filtros avanzados para una exploración más profunda de la información.
 
-## Available Scripts
+## Contenidos
 
-In the project directory, you can run:
+- [Características](#características)
+- [Tecnologías](#tecnologías)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Estructura del Proyecto](#estructura-del-proyecto)
+- [Despliegue ](#Despliegue )
 
-### `npm start`
+## Características
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Visualización de datos utilizando gráficos de líneas, barras, dona y pastel.
+- Filtros avanzados para análisis por rango de fechas, tipo de campaña, grupo de edad y género.
+- Funcionalidad de drill-down para explorar datos en detalle.
+- Responsive design para una experiencia de usuario óptima en diferentes dispositivos.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tecnologías
 
-### `npm test`
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **Chart.js**: Biblioteca de gráficos para visualizar datos.
+- **React Testing Library**: Herramienta para pruebas de componentes de React.
+- **Jest**: Framework de pruebas para JavaScript.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instalación
 
-### `npm run build`
+1. **Clona el repositorio:**
+   git clone https://github.com/tuusuario/tu-repositorio.git
+2. **Navega al directorio del proyecto:**
+   cd tu-repositorio
+3. **Instala las dependencias:**
+   npm install
+4. **Inicia el servidor de desarrollo:**
+   npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Uso
+- **Carga de Datos:** Los datos se cargan desde archivos JSON locales (/data/googleData.json y /data/metaData.json). Asegúrate de que estos archivos estén disponibles en el directorio public/data.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Aplicar Filtros:** Utiliza el componente de filtro para ajustar el rango de fechas, tipo de campaña, grupo de edad y género. Haz clic en "Aplicar Filtros" para actualizar los gráficos.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Explorar Gráficos:** Los gráficos se actualizan en función de los datos filtrados. Puedes hacer clic en puntos de datos para explorar detalles adicionales.
 
-### `npm run eject`
+## Estructura del Proyecto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- src/components/: Componentes React utilizados en el proyecto.
+   - Dashboard.js: Componente principal que maneja la carga de datos, filtros y renderiza los gráficos.
+   - Chart.js: Componente para renderizar gráficos usando Chart.js.
+   - Filter.js: Componente para aplicar filtros a los datos.
+- public/data/: Directorio que contiene los archivos JSON con los datos de prueba.
+- src/tests/: Pruebas unitarias para los componentes React.
+- package.json: Archivo de configuración del proyecto y dependencias.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Despliegue
+Para desplegar tu proyecto en Vercel, sigue estos pasos:
+- Instala Vercel CLI: Si aún no tienes la CLI de Vercel instalada, instálala globalmente usando npm: npm install -g vercel
+- Autenticación en Vercel: Asegúrate de estar autenticado en Vercel. Si es la primera vez que usas Vercel CLI, ejecuta: vercel login
+Sigue las instrucciones para completar el proceso de autenticación.
+- Despliegue: En el directorio raíz de tu proyecto, ejecuta: vercel
+La CLI de Vercel te guiará a través del proceso de despliegue. Puedes aceptar las configuraciones predeterminadas o personalizarlas según tus necesidades.
+- Configuración del Proyecto: Si es la primera vez que despliegas este proyecto, Vercel te pedirá configurar algunos detalles del proyecto, como el nombre y la configuración del dominio.
+- Verificación: Una vez completado el despliegue, Vercel te proporcionará una URL para acceder a tu aplicación desplegada. Puedes utilizar esta URL para verificar que todo esté funcionando correctamente.
+- Actualizaciones: Para realizar nuevas implementaciones, solo necesitas ejecutar nuevamente el comando vercel en el directorio del proyecto. Vercel manejará las actualizaciones y el enrutamiento de manera automática.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![image](https://github.com/user-attachments/assets/8113d13a-6761-4d4e-9cde-2907aea2879f)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
