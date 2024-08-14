@@ -52,3 +52,5 @@ Este proyecto es un dashboard interactivo para el análisis de datos de campaña
 - src/tests/: Pruebas unitarias para los componentes React.
 - package.json: Archivo de configuración del proyecto y dependencias.
 
+![image](https://github.com/user-attachments/assets/8113d13a-6761-4d4e-9cde-2907aea2879f)
+
