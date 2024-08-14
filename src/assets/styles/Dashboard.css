@@ -19,10 +19,10 @@
     font-size: 1.2rem;
   }
   .header {
-    background-color: #8fd0ee; 
+    background-color: #10395B;
+    color: white;
     padding: 20px;
-    text-align: 'center';    
-    color: 'white';
+    text-align: center;
   }
   .title {
     margin: 0;                
